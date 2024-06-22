@@ -1,0 +1,3 @@
+linux importent command 
+
+cd ~   or cd #HOME     using this we can redirect to home
