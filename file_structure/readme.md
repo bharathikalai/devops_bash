@@ -1,4 +1,4 @@
-# the main directories in the linux file system
+# The main directories in the linux file system
 
 # /bin
 
