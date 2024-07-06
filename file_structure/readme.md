@@ -183,3 +183,38 @@ Tools like fsck (filesystem check) can be used to repair filesystem errors.
 
 Deleted Data Retrieval:
 When trying to recover accidentally deleted files, administrators might mount backup storage or recovery media under /mnt to search for and restore lost data.
+
+
+# /opt (optional)
+
+The /opt directory in Linux is used for installing "optional" software packages. These packages are usually third-party applications that are not part of the default system installation. The /opt directory is a standard directory specified by the Filesystem Hierarchy Standard (FHS) for holding add-on application software packages.
+
+
+# Purpose : 
+
+Third-Party Applications:
+
+/opt is commonly used to store software that is not part of the standard distribution. This includes commercial software, large standalone applications, or software packages that are distributed in a pre-compiled binary format.
+
+Self-Contained Packages:
+Applications installed in /opt are typically self-contained, meaning all the files required by the application (executables, libraries, configuration files, etc.) are located within a single directory tree inside /opt.
+
+Subdirectories:
+Each application installed in /opt typically gets its own subdirectory. For example, if you install a package called "example," it might be located in /opt/example.
+
+Isolation:
+By placing third-party software in /opt, it is isolated from the standard system directories like /usr and /bin. This reduces the risk of conflicts with system software and simplifies management and removal of the application.
+
+
+# Example: if you are installed any thirdparty application that application configuration files and libs and share(shared files like image or icons) or doc(document files ) everthing will store under the /opt   
+
+/opt
+  ├── example
+  │   ├── bin
+  │   ├── lib
+  │   ├── share
+  │   └── doc
+
+like this: 
+
+![alt text](image-6.png)
