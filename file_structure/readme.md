@@ -122,3 +122,32 @@ It sends this signal to the appropriate place, such as a text editor or the comm
 It also sends back the output to your screen so you can see what you typed.
 
 ![alt text](image-4.png)
+
+# /boot 
+
+# Purpose : one of the very important folder in linux where kernel and inirfs and grub  are located 
+
+# example : when you turn on your linux machine what will happen ?
+
+# step 1 : Turning on my laptop
+# step 2 : first call basicinputoutputsystem(bios) or (unified exetensiable firmware interface)  made a post request to bios/uefi will check the hardware ram and memory if everything works fine it will call grub
+# step 3: what is grub? grand unified bootloader this file also located in /boot  These files tell GRUB where to find the kernel and initial RAM disk, and how to start them.
+# step 4: login page 
+
+# kernel : The kernel is the core part of the operating system.
+It manages everything your computer does, like running programs and talking to hardware.
+
+In Simple Terms:
+Think of the kernel as the "brain" of your computer.
+
+# What is the Initial RAM Disk?
+The initial RAM disk is a temporary filesystem loaded into memory during boot.
+It contains drivers and scripts needed to set up the system before the main filesystem is available.
+
+# What is the Bootloader?
+The bootloader is a small program that starts when you turn on your computer.
+It loads the kernel and initial RAM disk into memory and starts the operating system.
+
+In Simple Terms:
+The bootloader is like a “starter” for your car. It gets the engine (kernel) running.
+![alt text](image-5.png)
