@@ -97,3 +97,28 @@ this folder contains all the live run time data (logs)pid or process
 this folder contains all the queuing related data like printer or scheduling taks's
 
 ![alt text](image-3.png)
+
+
+# /dev
+
+/dev is a special directory in Linux that holds files representing your computer’s hardware devices and some virtual devices.
+
+/dev stands for devices
+
+# Purpose: /dev is a directory full of special files that act like shortcuts to your computer’s hardware and some special functions.
+It helps your computer talk to its hardware devices in a simple and standardized way.
+
+
+# Example : Press a Key:
+
+When you press a key on your keyboard, the signal goes to your computer.
+/dev/tty:
+
+The special file /dev/tty is involved. This file represents the terminal, which is like the link between your keyboard and screen.
+What /dev/tty Does:
+
+It receives the signal from your keyboard.
+It sends this signal to the appropriate place, such as a text editor or the command line.
+It also sends back the output to your screen so you can see what you typed.
+
+![alt text](image-4.png)
