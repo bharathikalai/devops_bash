@@ -29,3 +29,26 @@ Process Termination: Once everything is completed, the exit() system call is exe
 
 ![alt text](image.png)
 
+
+
+# /etc
+
+
+The /etc folder in Linux is like a central hub for configuration files.
+
+# Purpose: The /etc directory contains all the configuration files and shell scripts used by various programs and the operating system.
+Think of it as: A folder full of instructions that tell your computer how to behave and how different programs should run.
+
+# simple term :
+
+when you are install any application on your ubuntu machine 
+
+the configuration files of the application will stored in /etc
+
+# what is configuration file ?
+
+# example : when you install jenkins on you local jenkins has some configuration file that file contains all the jenkins related configiration like which port jenkins run and where jenkins log will store these all are configuration 
+
+![alt text](image-1.png)
+
+
