@@ -52,5 +52,12 @@ the configuration files of the application will stored in /etc
 ![alt text](image-1.png)
 
 
+# /lib 
 
+In Linux systems, the /lib directory primarily contains essential shared library files (also known as dynamically linked libraries or shared objects) that are crucial for the functioning of programs and the operating system itself. 
 
+# Purpose: Programs in Linux often use these shared libraries to perform tasks such as reading files, connecting to networks, or displaying graphics. Each library file contains specific functions that programs can call upon when needed.
+
+# example : when you write a code in python you may use may modules depends up on your usecase those modules are lib in linux.
+
+![alt text](image-2.png)
