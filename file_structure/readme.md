@@ -228,3 +228,56 @@ The /proc directory in Linux stands for "process." It is a virtual filesystem th
 ![alt text](image-7.png)
 
 
+
+# sys (system)
+
+/sys is like a control center for your computer's hardware.
+Think of /sys as a "window" into your computer's hardware.
+
+It shows information about the hardware devices (like your CPU, memory, and network cards) and how they are connected to your computer.
+
+# Purpose : To see hardware details: /sys helps you look at the specifics of your computer’s hardware.
+To adjust settings: You can change some hardware settings directly from /sys.
+
+# /sys/devices: Lists all the individual hardware parts in your computer.
+# /sys/class: Groups similar types of hardware together. For example, all network cards are in one group.
+# /sys/block: Shows information about storage devices like hard drives.
+# /sys/bus: Organizes devices by the way they are connected (like USB or PCI).
+# /sys/module: Contains details about extra pieces of code that can be added to the kernel (kernel modules).
+
+![alt text](image-8.png)
+
+
+# /run 
+
+The /run folder in Linux is like a temporary storage space for important information that the operating system and applications need while they are running
+
+Temporary Data: It holds data that changes frequently while your computer is on.
+
+Reset on Restart: Unlike files in /home or /var, which stay the same between restarts, /run is reset every time you restart your computer. It starts fresh with new data each time.
+
+System and App Needs: Stores things like process information (like which programs are running), communication channels between programs, and temporary settings.
+
+![alt text](image-9.png)
+
+
+# /usr(unix system resource)
+
+# Purpose: /usr stands for "Unix System Resources". It's a directory in Linux where most of the user-accessible programs and files are stored.
+
+User Programs: This is where you find applications and tools that you use daily, like web browsers, text editors, media players, etc.
+
+System Libraries: /usr also contains shared libraries that these programs use to function properly.
+
+Additional Data: It includes documentation, icons, wallpapers, and other files that programs may need.
+
+![alt text](image-10.png)
+
+
+# /srv
+
+# Purpose: /srv is a directory in the Linux filesystem hierarchy specifically designed for storing data that is served by the system.
+
+# Example : Web Server: If you run a web server like Apache, you might store your website's files (HTML, CSS, JavaScript, etc.) in /srv/www or /srv/http.
+
+
