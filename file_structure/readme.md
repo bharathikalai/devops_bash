@@ -72,6 +72,8 @@ Media typically refers to storage devices such as USB drives, DVDs, or any exter
 # Example: if you insert  pendrive  on your machine you can access your pendrive from this folder /media
 
 
+
+
 # /var
 
 The /var directory in Linux is crucial for system operation and contains variable data that often changes during the course of system operation
