@@ -218,3 +218,13 @@ By placing third-party software in /opt, it is isolated from the standard system
 like this: 
 
 ![alt text](image-6.png)
+
+# /proc (Process)
+
+The /proc directory in Linux stands for "process." It is a virtual filesystem that provides an interface to kernel data structures. The /proc filesystem presents information about system processes and other system information in a hierarchical file-like structure, which can be accessed to monitor and interact with the system's runtime information.
+
+# Example: /proc this folder contains all the data related to kernal and the files and directories within /proc provide real time information abount various aspects of the system such as cpu usage and memory usage process status and kernel parameters
+
+![alt text](image-7.png)
+
+
