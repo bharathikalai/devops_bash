@@ -151,3 +151,35 @@ It loads the kernel and initial RAM disk into memory and starts the operating sy
 In Simple Terms:
 The bootloader is like a “starter” for your car. It gets the engine (kernel) running.
 ![alt text](image-5.png)
+
+# /mnt
+
+The /mnt directory in Linux is a standard directory where temporary mount points are created for mounting temporary filesystems or storage devices by the system administrator or users.
+
+# Purpose
+
+Mounting Temporary Filesystems:
+
+The /mnt directory is typically used for temporarily mounting filesystems such as USB drives, external hard disks, or network shares.
+For example, if you plug in a USB drive, you might manually mount it under /mnt to access its contents.
+System Administrator Use:
+
+System administrators may use /mnt to temporarily mount filesystems for maintenance or data recovery tasks.
+Manual Mounting:
+
+Users with appropriate permissions can manually mount filesystems to /mnt using the mount command.
+This allows files and directories from the mounted filesystem to be accessed under /mnt.
+
+
+# Example 1: when you insert a usb driver into your machine you need to do manual mounting mount mount command:( mount /dev/sdb1 /mnt/usb) unmount command (unmount /mnt/usb) so that you can read or write your usb drive.  this is called manual mounting 
+
+but latest version of linux this manual mount is not needed it will automatically mount the usb 
+
+# Eample 2: system admin use:
+
+Filesystem Recovery:
+If a filesystem becomes corrupted or inaccessible, administrators may mount the affected storage device under /mnt to attempt recovery operations.
+Tools like fsck (filesystem check) can be used to repair filesystem errors.
+
+Deleted Data Retrieval:
+When trying to recover accidentally deleted files, administrators might mount backup storage or recovery media under /mnt to search for and restore lost data.
