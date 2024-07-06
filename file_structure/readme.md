@@ -61,3 +61,37 @@ In Linux systems, the /lib directory primarily contains essential shared library
 # example : when you write a code in python you may use many modules depends up on your usecase those modules are lib in linux.
 
 ![alt text](image-2.png)
+
+
+# /media
+
+Media typically refers to storage devices such as USB drives, DVDs, or any external storage medium used for data storage and transfer.
+
+# Purpose: /media this folder managing the external drive such as usb drive or dvd 
+
+# Example: if you insert  pendrive  on your machine you can access your pendrive from this folder /media
+
+
+# /var
+
+The /var directory in Linux is crucial for system operation and contains variable data that often changes during the course of system operation
+
+# there are four important folders :
+
+/var/log , /var/run ,  /var/temp , /var/spool
+
+# Purpose : on your machine if you do any action like download files or execute any program those logs will be stores in /var folder
+
+# /var/log: 
+this folder contains all the logs like system logs or application logs
+
+# /var/temp:
+this folder contains all the temporary file like download catch logs 
+
+# /var/run:
+this folder contains all the live run time data (logs)pid or process
+
+# /var/spool:
+this folder contains all the queuing related data like printer or scheduling taks's
+
+![alt text](image-3.png)
