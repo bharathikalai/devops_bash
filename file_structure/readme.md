@@ -47,8 +47,10 @@ the configuration files of the application will stored in /etc
 
 # what is configuration file ?
 
-# example : when you install jenkins on you local jenkins has some configuration file that file contains all the jenkins related configiration like which port jenkins run and where jenkins log will store these all are configuration 
+# example : when you install jenkins on your local, jenkins has some configuration file that file contains all the jenkins related configiration like which port jenkins run and where jenkins log will store these all are configuration. 
 
 ![alt text](image-1.png)
+
+
 
 
