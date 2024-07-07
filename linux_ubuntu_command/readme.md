@@ -81,3 +81,34 @@
 ![alt text](image-23.png)
 
 
+# command 6 
+
+# rmdir(remove directory) 
+
+# rmdir -v directory_name or rmdir directory_name
+![alt text](image-24.png)
+
+
+# command 7 
+
+# touch file_name (create a empty file)
+![alt text](image-25.png)
+
+# touch -a (change only the access time of a file)
+![alt text](image-27.png)
+
+# touch -m (change only the modification time of a file )
+![alt text](image-26.png)
+
+# touch -d (specific date of time)
+![alt text](image-28.png)
+
+# touch -r (the timestamps from a reference file)
+![alt text](image-29.png)
+
+
+
+
+
+
+
