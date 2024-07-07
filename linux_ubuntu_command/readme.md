@@ -69,4 +69,15 @@
 
 
 
+# command 5
+
+# mkdir(make directory)
+![alt text](image-21.png)
+
+# mkdir -v directory_name(-v verbose)
+![alt text](image-22.png)
+
+# mkdir -m 700 directory_name(-m mode )
+![alt text](image-23.png)
+
 
