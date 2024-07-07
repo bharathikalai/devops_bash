@@ -23,3 +23,18 @@
 ![alt text](image-8.png)
 # ls -F  ==== > list the contents with classify files
 ![alt text](image-9.png)
+
+
+# Uptime (The uptime command in Linux is a powerful tool that displays the current time, the system's uptime, the number of users, and the load average)
+
+# uptime
+![alt text](image-10.png)
+
+# uptime --help
+![alt text](image-11.png)
+
+# uptime -s (system up since)
+![alt text](image-12.png)
+
+# uptime -p (show uptime in pretty format)
+![alt text](image-13.png)
