@@ -106,6 +106,108 @@
 # touch -r (the timestamps from a reference file)
 ![alt text](image-29.png)
 
+# command 8 
+
+# rm (remove command)
+
+# rm file_name  or rm -r folder_name , file_name
+![alt text](image-30.png)
+
+
+# command 9 
+
+# cp (copy the file or folder)
+![alt text](image-31.png)
+
+# cp file_name distination_folder_name
+
+# cp -r source_folder_name distination_folder_name  (copy a directory)
+![alt text](image-32.png)
+
+
+
+# command 10
+
+# mv (move the folder or file or rename the files or folders)
+
+# mv old_file_name  new_file_name(rename the file)
+![alt text](image-33.png)
+
+# mv file distination_folder(move the file to foler)
+![alt text](image-34.png)
+
+# mv source_folder distination_folder(move the directory)
+![alt text](image-35.png)
+
+
+# command 11
+
+# cat file_name(concatenate and display file content)
+![alt text](image-36.png)
+
+# cat -n (number all output lines of files)
+![alt text](image-37.png)
+
+# cat -E (Display end of lines in a file)
+![alt text](image-38.png)
+
+
+# command 12
+# more file_name & less file_name & head file_name & tail file_name
+
+# more file_name (view file content one screen at a time)
+![alt text](image-39.png)
+
+# less file_name (view file content with forward and backward navigation)
+![alt text](image-40.png)
+
+# head file_name (display beginning of the file)
+![alt text](image-41.png)
+
+# tail file_name (display the end of a file)
+![alt text](image-42.png)
+
+
+# command 13
+
+# echo (print command in linux)
+![alt text](image-43.png)
+
+
+# command 14 
+
+# man (display manual for a command)
+![alt text](image-44.png)
+
+# info (display more detailed documentation for a command)
+
+
+# command 15 
+
+# find [path] [options] file_name
+
+# find /path/of/the/file -name filename.txt(find the file inside the directory)
+![alt text](image-45.png)
+
+# find /path/of/the/dirctory -type d -name "a*"(find the directory inside the directory)
+![alt text](image-46.png)
+
+# find /path/of/the/file  -size -100M (find the file lesser than 100mb)
+![alt text](image-47.png)
+
+# find /path/of/the/file -mtime -7 (find files modified in the last 7 days)
+![alt text](image-48.png)
+
+# find /path/of/the/file -perm 775 (find file with permission 775)
+![alt text](image-49.png)
+
+
+
+
+
+
+
+
 
 
 
