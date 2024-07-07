@@ -1,6 +1,6 @@
 # top 100 commands in linux
 
-
+# Command 1
 # ls (list the contents of folder)
 
 # ls === > list command
@@ -25,6 +25,8 @@
 ![alt text](image-9.png)
 
 
+
+# Command 2
 # Uptime (The uptime command in Linux is a powerful tool that displays the current time, the system's uptime, the number of users, and the load average)
 
 # uptime
