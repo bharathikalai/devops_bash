@@ -203,6 +203,32 @@
 
 
 
+# command 16 
+
+# grep (global regular expression print)
+
+# grep -w search_word file_name(match whole words only)
+![alt text](image-50.png)
+
+# grep -i search_word file_name(ignore case(case insensitive))
+![alt text](image-51.png)
+
+# grep -v search_word file_name(invert match (select non matching lines))
+![alt text](image-52.png)
+
+# grep -r search_word folder_name(recursively serach directories)
+![alt text](image-53.png)
+
+# grep -l search_word file1_name file2_name(Print only the names of files with matching lines.)
+![alt text](image-54.png)
+
+# grep -n search_word file1_name (print line number with output lines)
+![alt text](image-55.png)
+
+# grep -c search_word file1_name (count the number of matching lines)
+![alt text](image-56.png)
+
+
 
 
 
