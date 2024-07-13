@@ -229,6 +229,29 @@
 ![alt text](image-56.png)
 
 
+# very important commands
+
+# command 17 
+
+# useradd user_name(create a new user)
+
+# useradd -m username(Creating a User with a Home Directory)
+
+# passwd user_name (set the user password)
+
+# userdel -r user_name (remove the user and user home directory)
+
+# sudo usermod -aG sudo user_name (make the user as admin by using this command i am adding the sudo to test user group (use this command to verify ## groups username))
+
+# command 18 
+
+# sudo groupadd group_name      (create a group)
+![alt text](image-57.png)
+
+# sudo groupdel group_name      (delete the group)
+![alt text](image-58.png)
+
+
 
 
 
