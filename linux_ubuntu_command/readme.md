@@ -487,7 +487,23 @@ wget is a command-line utility for downloading files from the web. It is non-int
 # wget -r url_of_the_webiste(Downloading a Directory Recursively)
 
 
+# command 33
 
+# curl 
+curl is a command-line tool used for transferring data with URLs. It supports a wide range of protocols including HTTP, HTTPS, FTP, and more. curl is often used for downloading files, interacting with APIs, and testing endpoints.
+
+# curl -O url(Downloading a File)
+![alt text](image-81.png)
+
+
+# curl -o file_name url(Saving a File with a Specific Name)
+![alt text](image-82.png)
+
+# curl -X GET url(Sending a GET Request)
+
+# curl -X POST -d "name=John&age=30" http://example.com/form (Sending a POST Request with Data)
+
+# curl -u user_name:password http://example.com(Using Basic Authentication)
 
 
 
