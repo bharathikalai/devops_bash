@@ -282,14 +282,217 @@
 # chown user_name file_name(change the owner of this file)
 ![alt text](image-64.png)
 
-# chmod :groupname file_name (change the group of this file)
+# chown :groupname file_name (change the group of this file)
 ![alt text](image-65.png)
 
-# chmod user_name:group_name (change the both user name and group name of this file)
+# chown user_name:group_name (change the both user name and group name of this file)
 ![alt text](image-66.png)
 
-# chmod -R username /path/of/the/directory (change the owner of the directory)
+# chown -R username /path/of/the/directory (change the owner of the directory)
 ![alt text](image-67.png)
+
+
+# command 21
+
+# chgrp Change Group Ownership
+
+# chgrp group_name file_name(using this command we can change the file or directory group ownership note: we can also use chown to change the group ownership)
+
+![alt text](image-68.png)
+
+
+# chgrp -R group_name dirctory_name (Changing group ownership recursively for a directory)
+![alt text](image-69.png)
+
+
+
+# command 22
+
+# ln (ln - Create hard and symbolic links)
+# hard link
+A hard link is like having multiple names for the same file. Any changes made to one name (or link) affect all the other names (links).
+
+# Symbolic Links
+ 
+A symbolic link is like a shortcut or a pointer to another file or directory. If you delete or move the original file, the symbolic link becomes broken and doesn't point to anything anymore.
+
+# ln original_file_name  hard_link_file_name(create a hard link)
+
+# ln -s  original_file_name symbolic link name(create a symbolic link)
+
+
+# ln -sf (overwrites existing links or files)
+
+# ln -sv (prints detailed information)
+
+
+
+
+# command 23
+
+# df (disk free)
+
+The df command in Linux is used to display information about disk space usage on mounted filesystems. It stands for "disk free" and provides details such as total space, used space, available space, and filesystem type for each mounted filesystem.
+
+![alt text](image-70.png)
+
+# df -h (human readable)
+
+# df -T (print file system type of each file system)
+
+# df -i (display inode information)
+
+# df -a ( Include pseudo filesystems (like /proc and /sys) in the output.)
+
+# df --total (Display a total line at the end summarizing the total disk space usage across all filesystem)
+
+
+# command 24
+
+# du(disk usage)
+
+the du command in Linux stands for "disk usage" and is used to estimate file and directory space usage. It recursively summarizes disk usage of each specified file and directory and their subdirectories
+
+# du -h (find current directory disk usage in human readable format)
+
+# du -sh (Display only a total for each argument)
+![alt text](image-71.png)
+
+
+#  command 25
+
+# free (display information about system memory) 
+
+# free -h (human readable)
+![alt text](image-72.png)
+
+# free -hs 1 (display memory info every second)
+
+
+# command 26 
+
+# ps(process)
+The ps command in Linux is used to list currently running processes on a system. It provides a snapshot of active processes along with detailed information about each process. 
+
+
+# ps -e(diplay information about all process)
+![alt text](image-73.png)
+
+# ps -ef(diplay more information)
+
+# ps -aux (diplay all user information with all process)
+
+
+# command 27
+
+# top 
+The top command in Linux is a powerful utility that provides a real-time view of the system’s processes, displaying information about CPU and memory usage, as well as the state of individual processes.
+
+# top 
+
+# top -d 1(updates every 1 seconds)
+
+# top -u user_name(Displays processes for a specific user only.)
+
+# top -p pid_id(Monitor specific process IDs)
+
+# top -o specfic_fields( Specifies the field to sort by initially. Fields can be pid, user, pr, ni, virt, res, shr, %cpu, %mem, time+)
+
+
+# command 28
+
+# kill
+The kill command is used to terminate or send signals to processes based on their process ID (PID).
+
+# kill process_id (soft kill)
+![alt text](image-74.png)
+
+
+# kill -9 process_id (hard kill)
+![alt text](image-75.png)
+
+# killall(The killall command terminates processes by their name rather than their PID.)
+![alt text](image-76.png)
+
+# pkill -u username process_name
+![alt text](image-77.png)
+
+
+
+
+# command 29 
+
+The ssh command is used to securely connect to a remote machine or server over a network. It stands for Secure Shell and is a widely used tool for remote administration, secure file transfers, and tunneling.
+
+
+# ssh (open ssh client (remote login program))
+
+
+# ssh user_name@ip_address
+
+# ssh -p port_number user_name@ip_address(using a diffrent port)
+
+# ssh -i private_key user_name@ip_address (using ssh key)
+
+# ssh -L 8080:localhost:80 user@ip_address(local port foewarding)
+
+# ssh -R 8080:localhost:80 user@ip_address(remote port forwarding)
+
+
+# command 30 
+
+The scp (secure copy) command is used to securely transfer files and directories between local and remote systems over a network. It uses SSH for data transfer, providing the same level of security and authentication as SSH.
+
+# scp file_name user_name@ip_address:/home/path/(copy a local file to a remort system)
+
+# scp user_name@ip_address://home/path/file /local/directory/ (coping  a remote file to the local system)
+
+# scp -r /local/path/directoty user_name@user_ipaddress:/home/path/(copying a directory recursively)
+
+# scp -p 2222 file user_name@ip_address:/home/path/(specifying port)
+
+# scp -i path_of_the_key/private.pem file_name user_name@ip_address:/home/path/
+
+
+
+# command 31
+
+rsync is a versatile and powerful tool for file synchronization and transfer. It is highly efficient, especially for large files and directories, because it only transfers the differences between the source and destination. With options for compression, deletion, and exclusion, rsync can be tailored to fit a wide range of file transfer and synchronization needs.
+
+# rsync -avz /local/directory user_name@ip_address:/home/directory/
+
+![alt text](image-78.png)
+
+# rsync -avz --delete /directory/ user_name@ip_address:/home/path(Deleting Extraneous Files from Destination)
+
+# rsync -avz --exclude 'file_name' /local/directory/ user_name@ip_address:/home/directorty/(Excluding Specific Files)
+
+
+# command 32 
+
+# wget
+
+wget is a command-line utility for downloading files from the web. It is non-interactive, meaning it can work in the background while the user is not logged on. This makes it particularly useful for downloading large files or recursively downloading directories, websites, or mirroring websites.
+
+# wget url_of_the_website
+
+![alt text](image-79.png)
+
+# wget -P /directory/  url_of_the_webiste(Downloading a File to a Specific Directory
+)
+![alt text](image-80.png)
+
+# wget -c url_of_the_website(Resuming a Partially Downloaded File)
+
+# wget -r url_of_the_webiste(Downloading a Directory Recursively)
+
+
+
+
+
+
+
+
 
 
 
