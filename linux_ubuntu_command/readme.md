@@ -252,6 +252,50 @@
 ![alt text](image-58.png)
 
 
+# command 19 
+
+# chmod  (Change File Modes or Permissions)
+![alt text](image-59.png)
+
+# r (read), w(write),x(execute)
+# r == value 4
+# w == value 2
+# e == value 1
+![alt text](image-60.png)
+
+# full value (-rw-rw-r) first -rw- owner(u), second -rw- group(g) , -r other user(o)
+
+# chmod 600 file_name (600 mean 4+2 4 is read 2 is write)
+![alt text](image-61.png)
+
+# chmod 777 file_name(4+2+1=7(u),7(g),7(o))
+![alt text](image-62.png)
+
+
+# command 20 
+
+# chown(Change File Owner and Group)
+![alt text](image-63.png)
+
+# above image has two names bharathibk (first one is user and second one is group)
+
+# chown user_name file_name(change the owner of this file)
+![alt text](image-64.png)
+
+# chmod :groupname file_name (change the group of this file)
+![alt text](image-65.png)
+
+# chmod user_name:group_name (change the both user name and group name of this file)
+![alt text](image-66.png)
+
+# chmod -R username /path/of/the/directory (change the owner of the directory)
+![alt text](image-67.png)
+
+
+
+
+
+
 
 
 
