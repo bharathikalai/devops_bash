@@ -1,4 +1,4 @@
-## top 100 commands in linux
+# Top 100 commands in linux
 
 # Command 1
 ## ls (list the contents of folder)
