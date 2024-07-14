@@ -505,13 +505,34 @@ curl is a command-line tool used for transferring data with URLs. It supports a 
 
 # curl -u user_name:password http://example.com(Using Basic Authentication)
 
+# curl -X POST -H "Content-Type: application/json" -d '{"name":"John", "age":30}' http://example.com/api (Sending JSON Data in a POST Request)
 
 
+# command 34
+
+# uname(print system information)
+
+# uname -a
+![alt text](image-83.png)
 
 
+# command 35
+
+The hostname command in Linux is used to display or set the system's hostname. A hostname is a label assigned to a device (typically a computer) on a network. 
+
+# hostname
+![alt text](image-84.png)
+
+# hostname -i or I (ip addresses for the host name
+)
+![alt text](image-85.png)
+
+# hostnamectl(computer  information)
 
 
+# command 36 
 
+## ifconfig && ip
 
 
 
