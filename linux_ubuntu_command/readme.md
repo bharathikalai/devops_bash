@@ -478,8 +478,7 @@
 
 ![alt text](image-79.png)
 
-## wget -P /directory/  url_of_the_webiste(Downloading a File to a Specific Directory
-)
+## wget -P /directory/  url_of_the_webiste(Downloading a File to a Specific Directory)
 ![alt text](image-80.png)
 
 ## wget -c url_of_the_website(Resuming a Partially Downloaded File)
