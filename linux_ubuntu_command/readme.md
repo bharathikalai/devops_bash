@@ -27,7 +27,7 @@
 
 
 # Command 2
-## Uptime (The uptime command in Linux is a powerful tool that displays the current time, the system's uptime, the number of users, and the load average)
+##### Uptime (The uptime command in Linux is a powerful tool that displays the current time, the system's uptime, the number of users, and the load average)
 
 ## uptime
 ![alt text](image-10.png)
@@ -241,7 +241,7 @@
 
 ## userdel -r user_name (remove the user and user home directory)
 
-## sudo usermod -aG sudo user_name (make the user as admin by using this command i am adding the sudo to test user group (use this command to verify #### groups username))
+####  sudo usermod -aG sudo user_name (make the user as admin by using this command i am adding the sudo to test user group (use this command to verify #### groups username))
 
 # command 18 
 
@@ -296,7 +296,7 @@
 
 ## chgrp Change Group Ownership
 
-## chgrp group_name file_name(using this command we can change the file or directory group ownership note: we can also use chown to change the group ownership)
+####  chgrp group_name file_name(using this command we can change the file or directory group ownership note: we can also use chown to change the group ownership)
 
 ![alt text](image-68.png)
 
@@ -310,11 +310,11 @@
 
 ## ln (ln - Create hard and symbolic links)
 ## hard link
-A hard link is like having multiple names for the same file. Any changes made to one name (or link) affect all the other names (links).
+#### A hard link is like having multiple names for the same file. Any changes made to one name (or link) affect all the other names (links).
 
 ## Symbolic Links
  
-A symbolic link is like a shortcut or a pointer to another file or directory. If you delete or move the original file, the symbolic link becomes broken and doesn't point to anything anymore.
+#### A symbolic link is like a shortcut or a pointer to another file or directory. If you delete or move the original file, the symbolic link becomes broken and doesn't point to anything anymore.
 
 ## ln original_file_name  hard_link_file_name(create a hard link)
 
@@ -332,7 +332,7 @@ A symbolic link is like a shortcut or a pointer to another file or directory. If
 
 ## df (disk free)
 
-The df command in Linux is used to display information about disk space usage on mounted filesystems. It stands for "disk free" and provides details such as total space, used space, available space, and filesystem type for each mounted filesystem.
+#### The df command in Linux is used to display information about disk space usage on mounted filesystems. It stands for "disk free" and provides details such as total space, used space, available space, and filesystem type for each mounted filesystem.
 
 ![alt text](image-70.png)
 
@@ -351,7 +351,7 @@ The df command in Linux is used to display information about disk space usage on
 
 ## du(disk usage)
 
-the du command in Linux stands for "disk usage" and is used to estimate file and directory space usage. It recursively summarizes disk usage of each specified file and directory and their subdirectories
+#### the du command in Linux stands for "disk usage" and is used to estimate file and directory space usage. It recursively summarizes disk usage of each specified file and directory and their subdirectories
 
 ## du -h (find current directory disk usage in human readable format)
 
@@ -372,7 +372,7 @@ the du command in Linux stands for "disk usage" and is used to estimate file and
 # command 26 
 
 ## ps(process)
-The ps command in Linux is used to list currently running processes on a system. It provides a snapshot of active processes along with detailed information about each process. 
+#### The ps command in Linux is used to list currently running processes on a system. It provides a snapshot of active processes along with detailed information about each process. 
 
 
 ## ps -e(diplay information about all process)
@@ -386,7 +386,7 @@ The ps command in Linux is used to list currently running processes on a system.
 # command 27
 
 ## top 
-The top command in Linux is a powerful utility that provides a real-time view of the system’s processes, displaying information about CPU and memory usage, as well as the state of individual processes.
+#### The top command in Linux is a powerful utility that provides a real-time view of the system’s processes, displaying information about CPU and memory usage, as well as the state of individual processes.
 
 ## top 
 
@@ -402,7 +402,7 @@ The top command in Linux is a powerful utility that provides a real-time view of
 # command 28
 
 ## kill
-The kill command is used to terminate or send signals to processes based on their process ID (PID).
+#### The kill command is used to terminate or send signals to processes based on their process ID (PID).
 
 ## kill process_id (soft kill)
 ![alt text](image-74.png)
@@ -422,7 +422,7 @@ The kill command is used to terminate or send signals to processes based on thei
 
 # command 29 
 
-The ssh command is used to securely connect to a remote machine or server over a network. It stands for Secure Shell and is a widely used tool for remote administration, secure file transfers, and tunneling.
+#### The ssh command is used to securely connect to a remote machine or server over a network. It stands for Secure Shell and is a widely used tool for remote administration, secure file transfers, and tunneling.
 
 
 ## ssh (open ssh client (remote login program))
@@ -441,7 +441,7 @@ The ssh command is used to securely connect to a remote machine or server over a
 
 # command 30 
 
-The scp (secure copy) command is used to securely transfer files and directories between local and remote systems over a network. It uses SSH for data transfer, providing the same level of security and authentication as SSH.
+#### The scp (secure copy) command is used to securely transfer files and directories between local and remote systems over a network. It uses SSH for data transfer, providing the same level of security and authentication as SSH.
 
 ## scp file_name user_name@ip_address:/home/path/(copy a local file to a remort system)
 
@@ -457,7 +457,7 @@ The scp (secure copy) command is used to securely transfer files and directories
 
 # command 31
 
-rsync is a versatile and powerful tool for file synchronization and transfer. It is highly efficient, especially for large files and directories, because it only transfers the differences between the source and destination. With options for compression, deletion, and exclusion, rsync can be tailored to fit a wide range of file transfer and synchronization needs.
+#### rsync is a versatile and powerful tool for file synchronization and transfer. It is highly efficient, especially for large files and directories, because it only transfers the differences between the source and destination. With options for compression, deletion, and exclusion, rsync can be tailored to fit a wide range of file transfer and synchronization needs.
 
 ## rsync -avz /local/directory user_name@ip_address:/home/directory/
 
@@ -472,7 +472,7 @@ rsync is a versatile and powerful tool for file synchronization and transfer. It
 
 ## wget
 
-wget is a command-line utility for downloading files from the web. It is non-interactive, meaning it can work in the background while the user is not logged on. This makes it particularly useful for downloading large files or recursively downloading directories, websites, or mirroring websites.
+#### wget is a command-line utility for downloading files from the web. It is non-interactive, meaning it can work in the background while the user is not logged on. This makes it particularly useful for downloading large files or recursively downloading directories, websites, or mirroring websites.
 
 ## wget url_of_the_website
 
@@ -490,7 +490,7 @@ wget is a command-line utility for downloading files from the web. It is non-int
 # command 33
 
 ## curl 
-curl is a command-line tool used for transferring data with URLs. It supports a wide range of protocols including HTTP, HTTPS, FTP, and more. curl is often used for downloading files, interacting with APIs, and testing endpoints.
+#### curl is a command-line tool used for transferring data with URLs. It supports a wide range of protocols including HTTP, HTTPS, FTP, and more. curl is often used for downloading files, interacting with APIs, and testing endpoints.
 
 ## curl -O url(Downloading a File)
 ![alt text](image-81.png)
@@ -518,13 +518,12 @@ curl is a command-line tool used for transferring data with URLs. It supports a 
 
 # command 35
 
-The hostname command in Linux is used to display or set the system's hostname. A hostname is a label assigned to a device (typically a computer) on a network. 
+#### The hostname command in Linux is used to display or set the system's hostname. A hostname is a label assigned to a device (typically a computer) on a network. 
 
 ## hostname
 ![alt text](image-84.png)
 
-## hostname -i or I (ip addresses for the host name
-)
+## hostname -i or I (ip addresses for the host name)
 ![alt text](image-85.png)
 
 ## hostnamectl(computer  information)
@@ -532,7 +531,7 @@ The hostname command in Linux is used to display or set the system's hostname. A
 
 # command 36 
 
-#### ifconfig && ip
+## ifconfig && ip
 
 
 
