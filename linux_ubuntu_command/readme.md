@@ -532,9 +532,93 @@
 
 ## ifconfig && ip
 
+#### Both ifconfig and ip are command-line utilities in Linux used for network configuration and management
+
+## ip addr show(display infromation about all network )
+
+## ip link set eth0 up(brining an interface up )
+
+## ip link set eth0 down(brining an interface 
+down)
+
+## id addr add 192.168.1.10/24 dev eth0(assign a ip address)
+
+## id addr del 192.168.1.10/24 dev eth0(remove a specfic ip address from a network interface)
+
+###  set routes (add or delete routes in the routing table)
+
+## ip route add 192.168.1.0/24 via 192.168.1.1
+
+## ip route del 192.168.1.0/24
 
 
 
+# command 37 
+
+## ping
+
+#### The ping command in Linux is a network utility used to test the reachability of a host on an IP network. It works by sending Internet Control Message Protocol (ICMP) Echo Request packets to the target host and waiting for ICMP Echo Reply packets. The command helps in diagnosing network connectivity issues and measuring round-trip time for messages sent from the originating host to a destination computer.
+
+
+## ping -c 4 google.com
+
+![alt text](image-86.png)
+
+
+## ping -i 2 google.com(ping a host with a custom interval)
+
+
+## ping -s 100  google.com(ping a host with custom packet size)
+
+
+
+# command 38 
+
+## netstat
+
+#### The netstat command is a powerful network utility in Unix-like operating systems that provides information and statistics about the network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
+
+## netstat -a (show all sockets)
+
+## netstat -t (show tcp connection)
+
+## netstat -u (show udp connection)
+
+## netstat -n (show newmerical addressed instead of resolving hostnames)
+
+## netstat -l (show only listening sockets)
+
+## netstat -p (show PID)
+
+## netstat -r (display the routing table)
+
+## netstat -i (show diplay interface and their statistics)
+
+
+# command 39
+
+## traceroute 
+
+#### The traceroute command is a network diagnostic tool used to track the path that a packet takes from your computer to a destination host across an IP network. It helps identify the route and measure transit delays of packets across the network.
+
+
+## traceroute google.com (show the route packets take from your computer to google.com.)
+
+## traceroute -n google.com (traceroute with numerical addresses)
+
+
+# command 40 
+
+## nslookup
+
+#### The nslookup command in Linux is used for querying the Domain Name System (DNS) to obtain domain name or IP address mapping. It can be used to look up information such as the IP address of a domain name, the domain name associated with an IP address, and details about DNS records like A (Address), MX (Mail Exchange), NS (Name Server), and more.
+
+## nslookup google.com
+
+![alt text](image-87.png)
+
+
+# command 41
 
 
 
