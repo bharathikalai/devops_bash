@@ -620,6 +620,164 @@ down)
 
 # command 41
 
+## dig 
+
+#### The dig (Domain Information Groper) command is a network administration command-line tool for querying the Domain Name System (DNS). It is commonly used for network troubleshooting and to obtain information about DNS records
+
+## dig google.com
+
+![alt text](image-88.png)
+
+
+# command 42
+
+## route
+
+#### The route command in Linux is used to display and manipulate the IP routing table. It is a useful tool for network administrators to configure and troubleshoot the network routes on a Linux system
+
+# route -n 
+
+
+# command 43
+
+## iptables
+
+#### iptables is a user-space utility program that allows a system administrator to configure the IP packet filter rules of the Linux kernel firewall, implemented as different Netfilter modules. It is used to set up, maintain, and inspect the tables of IP packet filter rules in the Linux kernel.
+
+## iptables -A INPUT -p tcp --dport 22 -j ACCEPT (Allow SSH traffic (port 22))
+
+## iptables -A INPUT -s 192.168.1.100 -j DROP(Drop all incoming traffic from a specific IP)
+
+## iptables -D INPUT -p tcp --dport 22 -j ACCEPT(Delete a rule by specifying the rule itself)
+
+
+
+# command 44
+
+## ufw
+
+#### ufw (Uncomplicated Firewall) is a user-friendly interface for managing firewall rules in Linux. It simplifies the process of configuring a firewall, making it easier to manage for users who may not be familiar with the complexities of iptables
+
+## sudo ufw status
+
+![alt text](image-89.png)
+
+## sudo ufw allow from 192.168.1.100
+
+## sudo ufw allow from 192.168.1.100 to any port 22
+
+## sudo ufw deny 22
+
+## sudo ufw deny from 192.168.1.100
+
+## sudo ufw delete allow 22
+
+## default policy 
+
+### sudo ufw default deny incoming
+### sudo ufw default allow outgoing
+
+
+## sudo ufw allow in to any port 22(inound rules)
+
+## sudo ufw allow out to any port 22(inbound rule)
+
+
+
+# command 45
+
+## crontab
+
+#### A crontab (short for "cron table") is a configuration file in Unix-like operating systems that specifies shell commands to run periodically on a given schedule. It is commonly used for system administration tasks such as automating backups, monitoring system status, and running scheduled scripts.
+
+## crontab -e(edit the cron)
+![alt text](image-90.png)
+
+## crontab -l(list the cron)
+
+
+# command 46 
+
+## dmesg
+
+#### The dmesg command in Unix-like operating systems is used to examine and control the kernel ring buffer. The kernel ring buffer contains messages related to the system's hardware, drivers, and general kernel operations. These messages are often useful for diagnosing system issues, particularly those related to hardware or boot processes
+
+## dmesg 
+
+
+# command 47 
+
+## last
+
+#### The last command in Unix-like operating systems is used to display a list of the most recent logins and logouts of users on the system. This command retrieves information from the /var/log/wtmp file, which contains records of user logins, logouts, system reboots, and run-level changes.
+
+## last -n 5(Show the specified number of lines (entries).)
+
+![alt text](image-91.png)
+
+## last -F(Display the full login and logout times and dates.)
+
+## last -f /file_name(we can use this for to find the file created or accessed data time)
+
+
+
+
+# command 48 
+
+## who
+
+#### The who and whoami commands in Linux are used to gather information about users currently logged into the system.
+
+## who
+
+![alt text](image-92.png)
+
+## whoami
+
+![alt text](image-93.png)
+
+
+
+
+# command 49
+
+## env
+
+#### The env command in Linux is used to set or print environment variables. It can also be used to run a command with a modified environment.
+
+
+## env(using this command for print the env)
+
+## export variable_name=value(The export command is used to set environment variables and make them available to child processes)
+
+
+## unset variable_name(The unset command is used to remove environment variables.)
+
+
+
+
+# command 50 
+
+## zip && unzip
+
+#### The zip and unzip commands in Linux are used for compressing files and directories into a .zip archive and extracting files from a .zip archive, respectively.
+
+## zip 
+
+## zip file.zip file_name(zip the file)
+
+## zip -r folder.zip folder_name(zip the folder)
+
+## zip -e file.zip file_name(create a password protected zip)
+
+## zip -r -e folder.zip folder_name (create a password protected  zip folder)
+
+
+## unzip file.zip(unzip the file)
+
+## unzip folder.zip (unzip the folder)
+
+
 
 
 
